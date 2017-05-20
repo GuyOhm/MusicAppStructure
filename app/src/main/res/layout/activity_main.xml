@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ParentLayout"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicappstructure.MainActivity">
+
+    <TextView
+        style="@style/TextView"
+        android:text="@string/text_homepage" />
+
+    <Button
+        android:id="@+id/now_playing"
+        style="@style/Button"
+        android:text="@string/screen_now_playing" />
+
+    <Button
+        android:id="@+id/search"
+        style="@style/Button"
+        android:text="@string/screen_search" />
+
+    <Button
+        android:id="@+id/library"
+        style="@style/Button"
+        android:text="@string/screen_library" />
+
+</LinearLayout>
